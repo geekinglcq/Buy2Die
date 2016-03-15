@@ -1,7 +1,8 @@
 ##Demand
 ###User group
 + General User
-+ Admin
++ Admin  
+
 ###Log in
 + General User: input username&pwd, if these are in a correct format the insert userinfo to database and show register successfully.
 + Admin : Fix username&pwd
