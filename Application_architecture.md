@@ -5,9 +5,9 @@ An online shop system
 ## Stack
 
 * Node.js - Programming language
-* MongoDB - NoSQL Database
+* SQLite - SQL Database
 * Express - Back-end API
-* React - Front-end program logic, communicating widh back-end via API
+* [Vue.js](http://vuejs.org/) - Front-end program logic, communicating with back-end via API, _more clear than React, and easier to use_
 * Semantic UI - Front-end UI library
 
 ## User roles
