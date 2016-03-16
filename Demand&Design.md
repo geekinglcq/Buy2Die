@@ -50,13 +50,10 @@ features:
 
 ###Shipping Address table
 1. Address ID
-2. Country
-3. Province
-4. City
-5. Full Address
-6. Postal code
-7. Tel
-8. Consumer ID
+2. Full Address
+3. Postal code
+4. Tel
+5. Consumer ID
 
 ## User Flow
 1. Access main page without login, just two button in this page, one for login and one for registering.
@@ -65,8 +62,8 @@ features:
 4. Detail page: show full info of goods with buy button, fill in amount you want to buy and click this but to payment page.
 5. Payment page : show payment info, input the pwd, if (amount >0)&&(user's money is more than price)&&(shipping address is not empty), succeed to buy it. Otherwise alter ErrorInfo and return.
 6. In the top-right of navigation bar show username. After click it, redirect to UserInfo page.
-7. UserInfo page: show user info , recharge button and Shippint-Address-Set button.
-8. Recharge page:
+7. UserInfo page: show user info , recharge button and Shippint-Address-Set button.User handle the stuff of recharg and setting shipping address in the same page of userInfo.
+8. Recharge:
 input the money you want to recharge and pwd, click confirm, done. Change DB->userinfotable->balance.
 9. Set shipping address.(To be simple, each user has only one address).
 ![Picture](https://github.com/geekinglcq/Buy2Die/blob/master/UI%20layout.png)
